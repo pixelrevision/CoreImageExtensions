@@ -2,11 +2,11 @@
 
 ## What is it?
 
-CoreImage is a fantastic framework but can be a chore to work with due to lots of magic strings. This library is a generated set of data structures designed to make working with core image filters more type safe. This is useful when using in a Playground or if you want more type safety in your project. 
+CoreImage is a fantastic framework but can be a chore to work with due to lots of magic strings. This library is a generated set of classes and extensions designed to make working with core image filters more type safe. This is useful when using in a Playground or if you want more type safety in your project. 
 
 ## Usage
 
-You can use the filters as data structures.
+You can use the filters as typed classes.
 
 ```
 let filter = GaussianBlur(image: image, radius: 10).filter()
